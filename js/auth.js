@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('loginForm');
   const error = document.getElementById('loginError');
 
-  // Dummy credential
   const VALID_USER = 'admin';
   const VALID_PASS = '12345';
 
