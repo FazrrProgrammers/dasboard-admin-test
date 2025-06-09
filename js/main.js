@@ -18,3 +18,8 @@ const myChart = new Chart(ctx, {
     }
   }
 });
+
+function logout() {
+  localStorage.removeItem('isLoggedIn');
+  window.location.href = 'login.html';
+}
