@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (user === VALID_USER && pass === VALID_PASS) {
       localStorage.setItem('isLoggedIn', 'true');
-      window.location.href = 'index.html';
+      window.location.href = 'dashboard.html';
     } else {
       error.classList.remove('d-none');
     }
